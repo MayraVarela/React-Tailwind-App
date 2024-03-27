@@ -8,8 +8,10 @@ function App() {
   return (
     <main className= "px-4 pt-6">
     <Head />
+    <div className="sm:flex sm:gap-8">
     <MainArticle />
     <NewContainer />
+    </div>
     </main>
   ) 
 }
